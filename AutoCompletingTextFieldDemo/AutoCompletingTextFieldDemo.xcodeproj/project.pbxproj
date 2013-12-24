@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3A59051869E89100FCAD19 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58D51869E89100FCAD19 /* AFHTTPRequestOperation.m */; };
+		4C3A59061869E89100FCAD19 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58D71869E89100FCAD19 /* AFHTTPRequestOperationManager.m */; };
+		4C3A59071869E89100FCAD19 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58D91869E89100FCAD19 /* AFHTTPSessionManager.m */; };
+		4C3A59081869E89100FCAD19 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58DC1869E89100FCAD19 /* AFNetworkReachabilityManager.m */; };
+		4C3A59091869E89100FCAD19 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58DE1869E89100FCAD19 /* AFSecurityPolicy.m */; };
+		4C3A590A1869E89100FCAD19 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58E01869E89100FCAD19 /* AFURLConnectionOperation.m */; };
+		4C3A590B1869E89100FCAD19 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58E21869E89100FCAD19 /* AFURLRequestSerialization.m */; };
+		4C3A590C1869E89100FCAD19 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58E41869E89100FCAD19 /* AFURLResponseSerialization.m */; };
+		4C3A590D1869E89100FCAD19 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58E61869E89100FCAD19 /* AFURLSessionManager.m */; };
+		4C3A590F1869E89100FCAD19 /* SAAutoCompletingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58EA1869E89100FCAD19 /* SAAutoCompletingTextField.m */; };
+		4C3A59101869E89100FCAD19 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58EE1869E89100FCAD19 /* CXMLDocument_CreationExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C3A59111869E89100FCAD19 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58F01869E89100FCAD19 /* CXMLNode_CreationExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C3A59121869E89100FCAD19 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58F21869E89100FCAD19 /* CXMLDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C3A59131869E89100FCAD19 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58F41869E89100FCAD19 /* CXMLDocument_PrivateExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C3A59141869E89100FCAD19 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58F61869E89100FCAD19 /* CXMLElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C3A59151869E89100FCAD19 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58F81869E89100FCAD19 /* CXMLElement_CreationExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C3A59161869E89100FCAD19 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58FA1869E89100FCAD19 /* CXMLElement_ElementTreeExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C3A59171869E89100FCAD19 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58FC1869E89100FCAD19 /* CXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C3A59181869E89100FCAD19 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A58FE1869E89100FCAD19 /* CXMLNode_PrivateExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C3A59191869E89100FCAD19 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A59001869E89100FCAD19 /* CXMLNode_XPathExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C3A591A1869E89100FCAD19 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A59031869E89100FCAD19 /* CTidy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C5AD4E11868CA310065C767 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD4E01868CA310065C767 /* Foundation.framework */; };
+		4C5AD4E31868CA310065C767 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD4E21868CA310065C767 /* CoreGraphics.framework */; };
+		4C5AD4E51868CA310065C767 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD4E41868CA310065C767 /* UIKit.framework */; };
+		4C5AD4EB1868CA310065C767 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C5AD4E91868CA310065C767 /* InfoPlist.strings */; };
+		4C5AD4ED1868CA310065C767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5AD4EC1868CA310065C767 /* main.m */; };
+		4C5AD4F11868CA310065C767 /* SAAutoCompletingTextFieldDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5AD4F01868CA310065C767 /* SAAutoCompletingTextFieldDemoAppDelegate.m */; };
+		4C5AD4F41868CA310065C767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5AD4F21868CA310065C767 /* Main.storyboard */; };
+		4C5AD4F71868CA310065C767 /* SAAutoCompletingTextFieldDemoMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5AD4F61868CA310065C767 /* SAAutoCompletingTextFieldDemoMainViewController.m */; };
+		4C5AD4FA1868CA310065C767 /* SAAutoCompletingTextFieldDemoFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5AD4F91868CA310065C767 /* SAAutoCompletingTextFieldDemoFlipsideViewController.m */; };
+		4C5AD4FC1868CA310065C767 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5AD4FB1868CA310065C767 /* Images.xcassets */; };
+		4C5AD5031868CA310065C767 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD5021868CA310065C767 /* XCTest.framework */; };
+		4C5AD5041868CA310065C767 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD4E01868CA310065C767 /* Foundation.framework */; };
+		4C5AD5051868CA310065C767 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD4E41868CA310065C767 /* UIKit.framework */; };
+		4C5AD50D1868CA310065C767 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C5AD50B1868CA310065C767 /* InfoPlist.strings */; };
+		4C5AD50F1868CA310065C767 /* AutoCompletingTextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5AD50E1868CA310065C767 /* AutoCompletingTextFieldDemoTests.m */; };
+		4C5AD5641868CAF00065C767 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD55E1868CAAA0065C767 /* libxml2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C5AD5061868CA310065C767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5AD4D51868CA310065C767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5AD4DC1868CA310065C767;
+			remoteInfo = AutoCompletingTextFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C3A58D41869E89100FCAD19 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4C3A58D51869E89100FCAD19 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		4C3A58D61869E89100FCAD19 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		4C3A58D71869E89100FCAD19 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		4C3A58D81869E89100FCAD19 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		4C3A58D91869E89100FCAD19 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		4C3A58DA1869E89100FCAD19 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		4C3A58DB1869E89100FCAD19 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4C3A58DC1869E89100FCAD19 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4C3A58DD1869E89100FCAD19 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		4C3A58DE1869E89100FCAD19 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4C3A58DF1869E89100FCAD19 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4C3A58E01869E89100FCAD19 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		4C3A58E11869E89100FCAD19 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		4C3A58E21869E89100FCAD19 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4C3A58E31869E89100FCAD19 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		4C3A58E41869E89100FCAD19 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4C3A58E51869E89100FCAD19 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		4C3A58E61869E89100FCAD19 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		4C3A58E91869E89100FCAD19 /* SAAutoCompletingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAAutoCompletingTextField.h; sourceTree = "<group>"; };
+		4C3A58EA1869E89100FCAD19 /* SAAutoCompletingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAutoCompletingTextField.m; sourceTree = "<group>"; };
+		4C3A58ED1869E89100FCAD19 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		4C3A58EE1869E89100FCAD19 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		4C3A58EF1869E89100FCAD19 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		4C3A58F01869E89100FCAD19 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		4C3A58F11869E89100FCAD19 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		4C3A58F21869E89100FCAD19 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		4C3A58F31869E89100FCAD19 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		4C3A58F41869E89100FCAD19 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		4C3A58F51869E89100FCAD19 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		4C3A58F61869E89100FCAD19 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		4C3A58F71869E89100FCAD19 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		4C3A58F81869E89100FCAD19 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		4C3A58F91869E89100FCAD19 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		4C3A58FA1869E89100FCAD19 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		4C3A58FB1869E89100FCAD19 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		4C3A58FC1869E89100FCAD19 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		4C3A58FD1869E89100FCAD19 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		4C3A58FE1869E89100FCAD19 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		4C3A58FF1869E89100FCAD19 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		4C3A59001869E89100FCAD19 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		4C3A59021869E89100FCAD19 /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		4C3A59031869E89100FCAD19 /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		4C3A59041869E89100FCAD19 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		4C5AD4DD1868CA310065C767 /* AutoCompletingTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCompletingTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5AD4E01868CA310065C767 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C5AD4E21868CA310065C767 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C5AD4E41868CA310065C767 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C5AD4E81868CA310065C767 /* AutoCompletingTextFieldDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoCompletingTextFieldDemo-Info.plist"; sourceTree = "<group>"; };
+		4C5AD4EA1868CA310065C767 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C5AD4EC1868CA310065C767 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C5AD4EE1868CA310065C767 /* AutoCompletingTextFieldDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoCompletingTextFieldDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4C5AD4EF1868CA310065C767 /* SAAutoCompletingTextFieldDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAAutoCompletingTextFieldDemoAppDelegate.h; sourceTree = "<group>"; };
+		4C5AD4F01868CA310065C767 /* SAAutoCompletingTextFieldDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAAutoCompletingTextFieldDemoAppDelegate.m; sourceTree = "<group>"; };
+		4C5AD4F31868CA310065C767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C5AD4F51868CA310065C767 /* SAAutoCompletingTextFieldDemoMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAAutoCompletingTextFieldDemoMainViewController.h; sourceTree = "<group>"; };
+		4C5AD4F61868CA310065C767 /* SAAutoCompletingTextFieldDemoMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAAutoCompletingTextFieldDemoMainViewController.m; sourceTree = "<group>"; };
+		4C5AD4F81868CA310065C767 /* SAAutoCompletingTextFieldDemoFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAAutoCompletingTextFieldDemoFlipsideViewController.h; sourceTree = "<group>"; };
+		4C5AD4F91868CA310065C767 /* SAAutoCompletingTextFieldDemoFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAAutoCompletingTextFieldDemoFlipsideViewController.m; sourceTree = "<group>"; };
+		4C5AD4FB1868CA310065C767 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C5AD5011868CA310065C767 /* AutoCompletingTextFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCompletingTextFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5AD5021868CA310065C767 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C5AD50A1868CA310065C767 /* AutoCompletingTextFieldDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoCompletingTextFieldDemoTests-Info.plist"; sourceTree = "<group>"; };
+		4C5AD50C1868CA310065C767 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C5AD50E1868CA310065C767 /* AutoCompletingTextFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoCompletingTextFieldDemoTests.m; sourceTree = "<group>"; };
+		4C5AD55E1868CAAA0065C767 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5AD4DA1868CA310065C767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5AD5641868CAF00065C767 /* libxml2.dylib in Frameworks */,
+				4C5AD4E51868CA310065C767 /* UIKit.framework in Frameworks */,
+				4C5AD4E11868CA310065C767 /* Foundation.framework in Frameworks */,
+				4C5AD4E31868CA310065C767 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5AD4FE1868CA310065C767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5AD5031868CA310065C767 /* XCTest.framework in Frameworks */,
+				4C5AD5051868CA310065C767 /* UIKit.framework in Frameworks */,
+				4C5AD5041868CA310065C767 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C3A58D21869E89100FCAD19 /* SAAutoCompletingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A58D31869E89100FCAD19 /* AFNetworking */,
+				4C3A58E91869E89100FCAD19 /* SAAutoCompletingTextField.h */,
+				4C3A58EA1869E89100FCAD19 /* SAAutoCompletingTextField.m */,
+				4C3A58EB1869E89100FCAD19 /* TouchXML */,
+			);
+			name = SAAutoCompletingTextField;
+			path = ../../SAAutoCompletingTextField;
+			sourceTree = "<group>";
+		};
+		4C3A58D31869E89100FCAD19 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A58D41869E89100FCAD19 /* AFHTTPRequestOperation.h */,
+				4C3A58D51869E89100FCAD19 /* AFHTTPRequestOperation.m */,
+				4C3A58D61869E89100FCAD19 /* AFHTTPRequestOperationManager.h */,
+				4C3A58D71869E89100FCAD19 /* AFHTTPRequestOperationManager.m */,
+				4C3A58D81869E89100FCAD19 /* AFHTTPSessionManager.h */,
+				4C3A58D91869E89100FCAD19 /* AFHTTPSessionManager.m */,
+				4C3A58DA1869E89100FCAD19 /* AFNetworking.h */,
+				4C3A58DB1869E89100FCAD19 /* AFNetworkReachabilityManager.h */,
+				4C3A58DC1869E89100FCAD19 /* AFNetworkReachabilityManager.m */,
+				4C3A58DD1869E89100FCAD19 /* AFSecurityPolicy.h */,
+				4C3A58DE1869E89100FCAD19 /* AFSecurityPolicy.m */,
+				4C3A58DF1869E89100FCAD19 /* AFURLConnectionOperation.h */,
+				4C3A58E01869E89100FCAD19 /* AFURLConnectionOperation.m */,
+				4C3A58E11869E89100FCAD19 /* AFURLRequestSerialization.h */,
+				4C3A58E21869E89100FCAD19 /* AFURLRequestSerialization.m */,
+				4C3A58E31869E89100FCAD19 /* AFURLResponseSerialization.h */,
+				4C3A58E41869E89100FCAD19 /* AFURLResponseSerialization.m */,
+				4C3A58E51869E89100FCAD19 /* AFURLSessionManager.h */,
+				4C3A58E61869E89100FCAD19 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		4C3A58EB1869E89100FCAD19 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A58EC1869E89100FCAD19 /* Creation */,
+				4C3A58F11869E89100FCAD19 /* CXMLDocument.h */,
+				4C3A58F21869E89100FCAD19 /* CXMLDocument.m */,
+				4C3A58F31869E89100FCAD19 /* CXMLDocument_PrivateExtensions.h */,
+				4C3A58F41869E89100FCAD19 /* CXMLDocument_PrivateExtensions.m */,
+				4C3A58F51869E89100FCAD19 /* CXMLElement.h */,
+				4C3A58F61869E89100FCAD19 /* CXMLElement.m */,
+				4C3A58F71869E89100FCAD19 /* CXMLElement_CreationExtensions.h */,
+				4C3A58F81869E89100FCAD19 /* CXMLElement_CreationExtensions.m */,
+				4C3A58F91869E89100FCAD19 /* CXMLElement_ElementTreeExtensions.h */,
+				4C3A58FA1869E89100FCAD19 /* CXMLElement_ElementTreeExtensions.m */,
+				4C3A58FB1869E89100FCAD19 /* CXMLNode.h */,
+				4C3A58FC1869E89100FCAD19 /* CXMLNode.m */,
+				4C3A58FD1869E89100FCAD19 /* CXMLNode_PrivateExtensions.h */,
+				4C3A58FE1869E89100FCAD19 /* CXMLNode_PrivateExtensions.m */,
+				4C3A58FF1869E89100FCAD19 /* CXMLNode_XPathExtensions.h */,
+				4C3A59001869E89100FCAD19 /* CXMLNode_XPathExtensions.m */,
+				4C3A59011869E89100FCAD19 /* Tidy */,
+				4C3A59041869E89100FCAD19 /* TouchXML.h */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		4C3A58EC1869E89100FCAD19 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A58ED1869E89100FCAD19 /* CXMLDocument_CreationExtensions.h */,
+				4C3A58EE1869E89100FCAD19 /* CXMLDocument_CreationExtensions.m */,
+				4C3A58EF1869E89100FCAD19 /* CXMLNode_CreationExtensions.h */,
+				4C3A58F01869E89100FCAD19 /* CXMLNode_CreationExtensions.m */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
+		4C3A59011869E89100FCAD19 /* Tidy */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A59021869E89100FCAD19 /* CTidy.h */,
+				4C3A59031869E89100FCAD19 /* CTidy.m */,
+			);
+			path = Tidy;
+			sourceTree = "<group>";
+		};
+		4C5AD4D41868CA310065C767 = {
+			isa = PBXGroup;
+			children = (
+				4C5AD4E61868CA310065C767 /* AutoCompletingTextFieldDemo */,
+				4C5AD5081868CA310065C767 /* AutoCompletingTextFieldDemoTests */,
+				4C5AD4DF1868CA310065C767 /* Frameworks */,
+				4C5AD4DE1868CA310065C767 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5AD4DE1868CA310065C767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5AD4DD1868CA310065C767 /* AutoCompletingTextFieldDemo.app */,
+				4C5AD5011868CA310065C767 /* AutoCompletingTextFieldDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5AD4DF1868CA310065C767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C5AD55E1868CAAA0065C767 /* libxml2.dylib */,
+				4C5AD4E01868CA310065C767 /* Foundation.framework */,
+				4C5AD4E21868CA310065C767 /* CoreGraphics.framework */,
+				4C5AD4E41868CA310065C767 /* UIKit.framework */,
+				4C5AD5021868CA310065C767 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C5AD4E61868CA310065C767 /* AutoCompletingTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A58D21869E89100FCAD19 /* SAAutoCompletingTextField */,
+				4C5AD4EF1868CA310065C767 /* SAAutoCompletingTextFieldDemoAppDelegate.h */,
+				4C5AD4F01868CA310065C767 /* SAAutoCompletingTextFieldDemoAppDelegate.m */,
+				4C5AD4F21868CA310065C767 /* Main.storyboard */,
+				4C5AD4F51868CA310065C767 /* SAAutoCompletingTextFieldDemoMainViewController.h */,
+				4C5AD4F61868CA310065C767 /* SAAutoCompletingTextFieldDemoMainViewController.m */,
+				4C5AD4F81868CA310065C767 /* SAAutoCompletingTextFieldDemoFlipsideViewController.h */,
+				4C5AD4F91868CA310065C767 /* SAAutoCompletingTextFieldDemoFlipsideViewController.m */,
+				4C5AD4FB1868CA310065C767 /* Images.xcassets */,
+				4C5AD4E71868CA310065C767 /* Supporting Files */,
+			);
+			path = AutoCompletingTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		4C5AD4E71868CA310065C767 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C5AD4E81868CA310065C767 /* AutoCompletingTextFieldDemo-Info.plist */,
+				4C5AD4E91868CA310065C767 /* InfoPlist.strings */,
+				4C5AD4EC1868CA310065C767 /* main.m */,
+				4C5AD4EE1868CA310065C767 /* AutoCompletingTextFieldDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C5AD5081868CA310065C767 /* AutoCompletingTextFieldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5AD50E1868CA310065C767 /* AutoCompletingTextFieldDemoTests.m */,
+				4C5AD5091868CA310065C767 /* Supporting Files */,
+			);
+			path = AutoCompletingTextFieldDemoTests;
+			sourceTree = "<group>";
+		};
+		4C5AD5091868CA310065C767 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C5AD50A1868CA310065C767 /* AutoCompletingTextFieldDemoTests-Info.plist */,
+				4C5AD50B1868CA310065C767 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5AD4DC1868CA310065C767 /* AutoCompletingTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5AD5121868CA310065C767 /* Build configuration list for PBXNativeTarget "AutoCompletingTextFieldDemo" */;
+			buildPhases = (
+				4C5AD4D91868CA310065C767 /* Sources */,
+				4C5AD4DA1868CA310065C767 /* Frameworks */,
+				4C5AD4DB1868CA310065C767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoCompletingTextFieldDemo;
+			productName = AutoCompletingTextFieldDemo;
+			productReference = 4C5AD4DD1868CA310065C767 /* AutoCompletingTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C5AD5001868CA310065C767 /* AutoCompletingTextFieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5AD5151868CA310065C767 /* Build configuration list for PBXNativeTarget "AutoCompletingTextFieldDemoTests" */;
+			buildPhases = (
+				4C5AD4FD1868CA310065C767 /* Sources */,
+				4C5AD4FE1868CA310065C767 /* Frameworks */,
+				4C5AD4FF1868CA310065C767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5AD5071868CA310065C767 /* PBXTargetDependency */,
+			);
+			name = AutoCompletingTextFieldDemoTests;
+			productName = AutoCompletingTextFieldDemoTests;
+			productReference = 4C5AD5011868CA310065C767 /* AutoCompletingTextFieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5AD4D51868CA310065C767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SAAutoCompletingTextFieldDemo;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Shmoopi LLC";
+				TargetAttributes = {
+					4C5AD5001868CA310065C767 = {
+						TestTargetID = 4C5AD4DC1868CA310065C767;
+					};
+				};
+			};
+			buildConfigurationList = 4C5AD4D81868CA310065C767 /* Build configuration list for PBXProject "AutoCompletingTextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C5AD4D41868CA310065C767;
+			productRefGroup = 4C5AD4DE1868CA310065C767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5AD4DC1868CA310065C767 /* AutoCompletingTextFieldDemo */,
+				4C5AD5001868CA310065C767 /* AutoCompletingTextFieldDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5AD4DB1868CA310065C767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5AD4FC1868CA310065C767 /* Images.xcassets in Resources */,
+				4C5AD4EB1868CA310065C767 /* InfoPlist.strings in Resources */,
+				4C5AD4F41868CA310065C767 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5AD4FF1868CA310065C767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5AD50D1868CA310065C767 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5AD4D91868CA310065C767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5AD4FA1868CA310065C767 /* SAAutoCompletingTextFieldDemoFlipsideViewController.m in Sources */,
+				4C3A59091869E89100FCAD19 /* AFSecurityPolicy.m in Sources */,
+				4C5AD4F11868CA310065C767 /* SAAutoCompletingTextFieldDemoAppDelegate.m in Sources */,
+				4C3A59181869E89100FCAD19 /* CXMLNode_PrivateExtensions.m in Sources */,
+				4C3A59061869E89100FCAD19 /* AFHTTPRequestOperationManager.m in Sources */,
+				4C3A590A1869E89100FCAD19 /* AFURLConnectionOperation.m in Sources */,
+				4C3A59051869E89100FCAD19 /* AFHTTPRequestOperation.m in Sources */,
+				4C3A59141869E89100FCAD19 /* CXMLElement.m in Sources */,
+				4C5AD4F71868CA310065C767 /* SAAutoCompletingTextFieldDemoMainViewController.m in Sources */,
+				4C3A591A1869E89100FCAD19 /* CTidy.m in Sources */,
+				4C3A590B1869E89100FCAD19 /* AFURLRequestSerialization.m in Sources */,
+				4C3A59121869E89100FCAD19 /* CXMLDocument.m in Sources */,
+				4C3A59071869E89100FCAD19 /* AFHTTPSessionManager.m in Sources */,
+				4C3A59101869E89100FCAD19 /* CXMLDocument_CreationExtensions.m in Sources */,
+				4C3A59191869E89100FCAD19 /* CXMLNode_XPathExtensions.m in Sources */,
+				4C3A59171869E89100FCAD19 /* CXMLNode.m in Sources */,
+				4C3A59111869E89100FCAD19 /* CXMLNode_CreationExtensions.m in Sources */,
+				4C3A59161869E89100FCAD19 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				4C3A59081869E89100FCAD19 /* AFNetworkReachabilityManager.m in Sources */,
+				4C3A590C1869E89100FCAD19 /* AFURLResponseSerialization.m in Sources */,
+				4C3A59151869E89100FCAD19 /* CXMLElement_CreationExtensions.m in Sources */,
+				4C3A590D1869E89100FCAD19 /* AFURLSessionManager.m in Sources */,
+				4C3A59131869E89100FCAD19 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				4C3A590F1869E89100FCAD19 /* SAAutoCompletingTextField.m in Sources */,
+				4C5AD4ED1868CA310065C767 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5AD4FD1868CA310065C767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5AD50F1868CA310065C767 /* AutoCompletingTextFieldDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C5AD5071868CA310065C767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5AD4DC1868CA310065C767 /* AutoCompletingTextFieldDemo */;
+			targetProxy = 4C5AD5061868CA310065C767 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C5AD4E91868CA310065C767 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5AD4EA1868CA310065C767 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C5AD4F21868CA310065C767 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5AD4F31868CA310065C767 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C5AD50B1868CA310065C767 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5AD50C1868CA310065C767 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C5AD5101868CA310065C767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C5AD5111868CA310065C767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C5AD5131868CA310065C767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoCompletingTextFieldDemo/AutoCompletingTextFieldDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "AutoCompletingTextFieldDemo/AutoCompletingTextFieldDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C5AD5141868CA310065C767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoCompletingTextFieldDemo/AutoCompletingTextFieldDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "AutoCompletingTextFieldDemo/AutoCompletingTextFieldDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C5AD5161868CA310065C767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoCompletingTextFieldDemo.app/AutoCompletingTextFieldDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoCompletingTextFieldDemo/AutoCompletingTextFieldDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AutoCompletingTextFieldDemoTests/AutoCompletingTextFieldDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4C5AD5171868CA310065C767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoCompletingTextFieldDemo.app/AutoCompletingTextFieldDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoCompletingTextFieldDemo/AutoCompletingTextFieldDemo-Prefix.pch";
+				INFOPLIST_FILE = "AutoCompletingTextFieldDemoTests/AutoCompletingTextFieldDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5AD4D81868CA310065C767 /* Build configuration list for PBXProject "AutoCompletingTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5AD5101868CA310065C767 /* Debug */,
+				4C5AD5111868CA310065C767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5AD5121868CA310065C767 /* Build configuration list for PBXNativeTarget "AutoCompletingTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5AD5131868CA310065C767 /* Debug */,
+				4C5AD5141868CA310065C767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5AD5151868CA310065C767 /* Build configuration list for PBXNativeTarget "AutoCompletingTextFieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5AD5161868CA310065C767 /* Debug */,
+				4C5AD5171868CA310065C767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C5AD4D51868CA310065C767 /* Project object */;
+}
